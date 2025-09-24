@@ -20,18 +20,18 @@ export default function Navbar() {
 
           {/* Desktop Menu */}
           <div className="hidden md:flex space-x-6">
-            {/* <Link href="/" className="text-gray-700 hover:text-blue-600 transition">
+            <Link href="/" className="text-gray-700 hover:text-blue-600 transition">
               Home
-            </Link> */}
-            {/* <Link href="/about" className="text-gray-700 hover:text-blue-600 transition">
+            </Link>
+            <Link href="/about" className="text-gray-700 hover:text-blue-600 transition">
               About
-            </Link> */}
-            {/* <Link href="/events" className="text-gray-700 hover:text-blue-600 transition">
+            </Link>
+            <Link href="/events" className="text-gray-700 hover:text-blue-600 transition">
               Events
-            </Link> */}
-            {/* <Link href="/contact" className="text-gray-700 hover:text-blue-600 transition">
+            </Link>
+            <Link href="/contact" className="text-gray-700 hover:text-blue-600 transition">
               Contact
-            </Link> */}
+            </Link>
           </div>
 
           {/* Buttons */}
