@@ -1,8 +1,14 @@
 "use client";
-
+import { useRouter } from "next/navigation";
 import React from "react";
 
 export default function LoginPage() {
+   const router = useRouter();
+  
+     const godash = (e: React.FormEvent) => {
+    e.preventDefault(); // ⛔ stop form reload
+    router.push("/globetales-dash");
+  };
   return (
     <div
       className="min-h-screen flex items-center justify-center"
@@ -55,6 +61,7 @@ export default function LoginPage() {
           {/* Submit Button */}
           <button
             type="submit"
+            onClick={godash}
             className="px-4 py-2 rounded-lg font-semibold mt-2 transition shadow-md"
             style={{ backgroundColor: "#009688", color: "white" }}
           >
